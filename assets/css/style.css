@@ -1,0 +1,52 @@
+body{
+    background: url('../images/tile.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+header{
+    margin-bottom: 20px;
+
+}
+
+.btn-secondary,.reset{
+	background-color: #313477;
+	color: white;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	padding: 5px;
+	margin-top: 100px;
+}
+.btn-secondary :hover, .reset:hover{
+
+	background-color: #202364;
+}
+
+
+.container{
+	background-color:orange;
+	margin:0 auto;
+	text-align: center;
+	position:relative;
+	padding-bottom: 50px;
+
+}
+
+h2, #message, #finalMessage{
+    font-family: 'Questrial', sans-serif;
+    font-size:15px;
+}
+
+.question {
+    font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	letter-spacing: .5px;
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 1px;
+}
+
